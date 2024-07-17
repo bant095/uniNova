@@ -52,10 +52,26 @@
   outline: 0;
   margin-bottom: 15px;
   margin-top: 5px;
-  resize: noe;
+  resize: none;
 }
 
 .contact-col span {
   display: block;
   margin: 20px 0;
+}
+
+/* MEDIA QUERY */
+
+@media (max-width: 700px) {
+  .contact {
+    display: block;
+  }
+
+  .contact-col {
+    padding: 20px;
+  }
+
+  .contact-col p {
+    min-width: 300px;
+  }
 }
